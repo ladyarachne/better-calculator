@@ -737,3 +737,369 @@
 2025-03-23 17:29:32,427 - calculator - ERROR - Error calculating square root: Cannot calculate square root of a negative number
 2025-03-23 17:29:32,432 - calculator - INFO - Calculated 2 raised to 3: 8
 2025-03-23 17:29:32,443 - calculator - INFO - Calculated statistics for 3 numbers
+2025-03-23 17:31:33,565 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,575 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,575 - calculator - INFO - Cleared calculation history
+2025-03-23 17:31:33,599 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:31:33,613 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,614 - calculator - INFO - Cleared calculation history
+2025-03-23 17:31:33,617 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:31:33,618 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,623 - calculator - INFO - Cleared calculation history
+2025-03-23 17:31:33,626 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,626 - calculator - INFO - Cleared calculation history
+2025-03-23 17:31:33,629 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:31:33,641 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,641 - calculator - INFO - Cleared calculation history
+2025-03-23 17:31:33,652 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:31:33,666 - calculator - INFO - Saved calculation history to /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-6/test_save_and_load_history0/test_history.csv
+2025-03-23 17:31:33,667 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,668 - calculator - INFO - Cleared calculation history
+2025-03-23 17:31:33,680 - calculator - INFO - Loaded calculation history from /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-6/test_save_and_load_history0/test_history.csv
+2025-03-23 17:31:33,686 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,687 - calculator - INFO - Cleared calculation history
+2025-03-23 17:31:33,691 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:31:33,693 - calculator - INFO - Saved calculation history to /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-6/test_delete_history_file0/test_history.csv
+2025-03-23 17:31:33,694 - calculator - INFO - Deleted calculation history file /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-6/test_delete_history_file0/test_history.csv
+2025-03-23 17:31:33,704 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,705 - calculator - INFO - Cleared calculation history
+2025-03-23 17:31:33,706 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:31:33,707 - calculator - INFO - Added calculation to history: Calculation(10, 5, subtract)
+2025-03-23 17:31:33,710 - calculator - INFO - Added calculation to history: Calculation(10, 5, multiply)
+2025-03-23 17:31:33,711 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:31:33,722 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,723 - calculator - INFO - Cleared calculation history
+2025-03-23 17:31:33,725 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:31:33,728 - calculator - INFO - Added calculation to history: Calculation(10, 5, subtract)
+2025-03-23 17:31:33,732 - calculator - INFO - Added calculation to history: Calculation(10, 5, multiply)
+2025-03-23 17:31:33,742 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,742 - calculator - INFO - Cleared calculation history
+2025-03-23 17:31:33,765 - calculator - INFO - Test info message
+2025-03-23 17:31:33,768 - calculator - ERROR - Test error message
+2025-03-23 17:31:33,776 - calculator - DEBUG - Test debug message
+2025-03-23 17:31:33,779 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,780 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,780 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,780 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:31:33,783 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,784 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,784 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,785 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:31:33,805 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,805 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,805 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,806 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:31:33,813 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:31:33,816 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,816 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,817 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,817 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:31:33,822 - calculator - INFO - Added calculation to history: Calculation(10, 5, subtract)
+2025-03-23 17:31:33,826 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,827 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,827 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,827 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:31:33,830 - calculator - INFO - Added calculation to history: Calculation(10, 5, multiply)
+2025-03-23 17:31:33,840 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,840 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,841 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,841 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:31:33,843 - calculator - INFO - Added calculation to history: Calculation(10, 5, divide)
+2025-03-23 17:31:33,844 - calculator - ERROR - Error adding calculation to history: Cannot divide by zero
+2025-03-23 17:31:33,846 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,846 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,846 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,846 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:31:33,851 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:31:33,863 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:31:33,864 - calculator - INFO - Cleared calculation history
+2025-03-23 17:31:33,868 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,868 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,868 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,869 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:31:33,872 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,872 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,873 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,873 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:31:33,874 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,875 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,875 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,875 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:31:33,878 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,879 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,879 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,879 - calculator - INFO - Executing plugin: sqrt
+2025-03-23 17:31:33,879 - calculator - INFO - Calculated square root of 16: 4
+2025-03-23 17:31:33,881 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,881 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,881 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,882 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:31:33,886 - calculator - INFO - Starting calculator application
+2025-03-23 17:31:33,889 - calculator - INFO - Starting calculator application
+2025-03-23 17:31:33,890 - calculator - ERROR - Unhandled exception: Test exception
+2025-03-23 17:31:33,911 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,912 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,912 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,914 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,915 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,915 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,917 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,918 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,918 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,921 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:31:33,922 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:31:33,922 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:31:33,922 - calculator - INFO - Executing plugin: sqrt
+2025-03-23 17:31:33,922 - calculator - INFO - Calculated square root of 16: 4
+2025-03-23 17:31:33,922 - calculator - INFO - Executing plugin: power
+2025-03-23 17:31:33,923 - calculator - INFO - Calculated 2 raised to 3: 8
+2025-03-23 17:31:33,925 - calculator - INFO - Calculated square root of 16: 4
+2025-03-23 17:31:33,926 - calculator - ERROR - Error calculating square root: Cannot calculate square root of a negative number
+2025-03-23 17:31:33,930 - calculator - INFO - Calculated 2 raised to 3: 8
+2025-03-23 17:31:33,932 - calculator - INFO - Calculated statistics for 3 numbers
+2025-03-23 17:32:33,358 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,360 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,360 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:33,368 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:33,375 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,375 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:33,378 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:33,380 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,381 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:33,388 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,388 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:33,390 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:33,396 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,396 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:33,404 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:33,463 - calculator - INFO - Saved calculation history to /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-7/test_save_and_load_history0/test_history.csv
+2025-03-23 17:32:33,464 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,464 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:33,492 - calculator - INFO - Loaded calculation history from /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-7/test_save_and_load_history0/test_history.csv
+2025-03-23 17:32:33,495 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,496 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:33,505 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:33,509 - calculator - INFO - Saved calculation history to /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-7/test_delete_history_file0/test_history.csv
+2025-03-23 17:32:33,509 - calculator - INFO - Deleted calculation history file /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-7/test_delete_history_file0/test_history.csv
+2025-03-23 17:32:33,515 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,515 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:33,525 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:33,527 - calculator - INFO - Added calculation to history: Calculation(10, 5, subtract)
+2025-03-23 17:32:33,530 - calculator - INFO - Added calculation to history: Calculation(10, 5, multiply)
+2025-03-23 17:32:33,535 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:33,577 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,578 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:33,581 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:33,584 - calculator - INFO - Added calculation to history: Calculation(10, 5, subtract)
+2025-03-23 17:32:33,586 - calculator - INFO - Added calculation to history: Calculation(10, 5, multiply)
+2025-03-23 17:32:33,592 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,592 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:33,614 - calculator - INFO - Test info message
+2025-03-23 17:32:33,617 - calculator - ERROR - Test error message
+2025-03-23 17:32:33,622 - calculator - DEBUG - Test debug message
+2025-03-23 17:32:33,624 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,624 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,624 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,625 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:33,627 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,628 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,628 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,628 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:33,630 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,630 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,631 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,631 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:33,636 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:33,649 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,649 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,649 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,649 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:33,652 - calculator - INFO - Added calculation to history: Calculation(10, 5, subtract)
+2025-03-23 17:32:33,677 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,677 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,677 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,677 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:33,709 - calculator - INFO - Added calculation to history: Calculation(10, 5, multiply)
+2025-03-23 17:32:33,714 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,715 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,715 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,715 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:33,719 - calculator - INFO - Added calculation to history: Calculation(10, 5, divide)
+2025-03-23 17:32:33,720 - calculator - ERROR - Error adding calculation to history: Cannot divide by zero
+2025-03-23 17:32:33,722 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,722 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,723 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,723 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:33,726 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:33,744 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:33,744 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:33,746 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,747 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,747 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,747 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:33,751 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,752 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,752 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,752 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:33,755 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,755 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,755 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,756 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:33,758 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,758 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,758 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,759 - calculator - INFO - Executing plugin: sqrt
+2025-03-23 17:32:33,759 - calculator - INFO - Calculated square root of 16: 4
+2025-03-23 17:32:33,761 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,762 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,762 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,762 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:33,765 - calculator - INFO - Starting calculator application
+2025-03-23 17:32:33,769 - calculator - INFO - Starting calculator application
+2025-03-23 17:32:33,770 - calculator - ERROR - Unhandled exception: Test exception
+2025-03-23 17:32:33,866 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,866 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,866 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,872 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,873 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,873 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,877 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,877 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,877 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,882 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:33,882 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:33,882 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:33,882 - calculator - INFO - Executing plugin: sqrt
+2025-03-23 17:32:33,882 - calculator - INFO - Calculated square root of 16: 4
+2025-03-23 17:32:33,883 - calculator - INFO - Executing plugin: power
+2025-03-23 17:32:33,883 - calculator - INFO - Calculated 2 raised to 3: 8
+2025-03-23 17:32:33,886 - calculator - INFO - Calculated square root of 16: 4
+2025-03-23 17:32:33,886 - calculator - ERROR - Error calculating square root: Cannot calculate square root of a negative number
+2025-03-23 17:32:33,890 - calculator - INFO - Calculated 2 raised to 3: 8
+2025-03-23 17:32:33,897 - calculator - INFO - Calculated statistics for 3 numbers
+2025-03-23 17:32:51,152 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:51,158 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:51,159 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:51,184 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:51,284 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:51,284 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:51,351 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:51,371 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:51,372 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:51,388 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:51,389 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:51,404 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:51,433 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:51,436 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:51,635 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:51,643 - calculator - INFO - Saved calculation history to /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-8/test_save_and_load_history0/test_history.csv
+2025-03-23 17:32:51,650 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:51,650 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:51,656 - calculator - INFO - Loaded calculation history from /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-8/test_save_and_load_history0/test_history.csv
+2025-03-23 17:32:51,661 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:51,662 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:51,668 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:51,670 - calculator - INFO - Saved calculation history to /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-8/test_delete_history_file0/test_history.csv
+2025-03-23 17:32:51,671 - calculator - INFO - Deleted calculation history file /private/var/folders/yn/v4f6q1x97tb2rr21v66qfzsr0000gn/T/pytest-of-nathaniellelouis/pytest-8/test_delete_history_file0/test_history.csv
+2025-03-23 17:32:51,752 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:51,753 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:51,762 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:51,769 - calculator - INFO - Added calculation to history: Calculation(10, 5, subtract)
+2025-03-23 17:32:51,771 - calculator - INFO - Added calculation to history: Calculation(10, 5, multiply)
+2025-03-23 17:32:51,773 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:51,787 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:51,787 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:51,792 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:51,798 - calculator - INFO - Added calculation to history: Calculation(10, 5, subtract)
+2025-03-23 17:32:51,802 - calculator - INFO - Added calculation to history: Calculation(10, 5, multiply)
+2025-03-23 17:32:51,812 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:51,813 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:51,854 - calculator - INFO - Test info message
+2025-03-23 17:32:51,859 - calculator - ERROR - Test error message
+2025-03-23 17:32:51,866 - calculator - DEBUG - Test debug message
+2025-03-23 17:32:51,870 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:51,871 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:51,871 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:51,871 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:51,895 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:51,896 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:51,897 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:51,897 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:51,903 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:51,904 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:51,904 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:51,904 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:51,917 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:51,923 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:51,923 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:51,924 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:51,924 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:51,931 - calculator - INFO - Added calculation to history: Calculation(10, 5, subtract)
+2025-03-23 17:32:51,935 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:51,936 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:51,936 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:51,936 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:51,942 - calculator - INFO - Added calculation to history: Calculation(10, 5, multiply)
+2025-03-23 17:32:51,950 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:51,951 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:51,951 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:51,951 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:51,955 - calculator - INFO - Added calculation to history: Calculation(10, 5, divide)
+2025-03-23 17:32:51,957 - calculator - ERROR - Error adding calculation to history: Cannot divide by zero
+2025-03-23 17:32:51,961 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:51,962 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:51,969 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:51,970 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:51,976 - calculator - INFO - Added calculation to history: Calculation(10, 5, add)
+2025-03-23 17:32:52,008 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:32:52,009 - calculator - INFO - Cleared calculation history
+2025-03-23 17:32:52,017 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:52,018 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:52,019 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:52,019 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:52,037 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:52,038 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:52,038 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:52,038 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:52,043 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:52,043 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:52,043 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:52,043 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:52,056 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:52,057 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:52,057 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:52,057 - calculator - INFO - Executing plugin: sqrt
+2025-03-23 17:32:52,057 - calculator - INFO - Calculated square root of 16: 4
+2025-03-23 17:32:52,061 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:52,063 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:52,063 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:52,064 - calculator - INFO - Calculator REPL initialized
+2025-03-23 17:32:52,071 - calculator - INFO - Starting calculator application
+2025-03-23 17:32:52,084 - calculator - INFO - Starting calculator application
+2025-03-23 17:32:52,084 - calculator - ERROR - Unhandled exception: Test exception
+2025-03-23 17:32:52,135 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:52,135 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:52,135 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:52,139 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:52,144 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:52,144 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:52,151 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:52,151 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:52,151 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:52,158 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:32:52,159 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:32:52,160 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:32:52,161 - calculator - INFO - Executing plugin: sqrt
+2025-03-23 17:32:52,161 - calculator - INFO - Calculated square root of 16: 4
+2025-03-23 17:32:52,162 - calculator - INFO - Executing plugin: power
+2025-03-23 17:32:52,163 - calculator - INFO - Calculated 2 raised to 3: 8
+2025-03-23 17:32:52,169 - calculator - INFO - Calculated square root of 16: 4
+2025-03-23 17:32:52,169 - calculator - ERROR - Error calculating square root: Cannot calculate square root of a negative number
+2025-03-23 17:32:52,176 - calculator - INFO - Calculated 2 raised to 3: 8
+2025-03-23 17:32:52,185 - calculator - INFO - Calculated statistics for 3 numbers
+2025-03-23 17:33:38,402 - calculator - INFO - Starting calculator application
+2025-03-23 17:33:38,408 - calculator - INFO - Initialized empty calculation history DataFrame
+2025-03-23 17:33:38,411 - calculator - INFO - Loaded plugin: power - Calculate a number raised to a power
+2025-03-23 17:33:38,411 - calculator - INFO - Loaded plugin: sqrt - Calculate the square root of a number
+2025-03-23 17:33:38,412 - calculator - INFO - Loaded plugin: stats - Calculate statistics (mean, min, max) on a list of numbers
+2025-03-23 17:33:38,414 - calculator - INFO - Calculator REPL initialized

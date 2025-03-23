@@ -1,18 +1,26 @@
-import logging
+"""calculator."""
 
 class Calculator:
-    def perform_operation(self, a: float, operation: str, b: float) -> float:
-        logging.info(f"Performing {a} {operation} {b}")
-        operations = {
-            'add': lambda x, y: x + y,
-            'subtract': lambda x, y: x - y,
-            'multiply': lambda x, y: x * y,
-            'divide': lambda x, y: x / y if y != 0 else self.handle_divide_by_zero()
-        }
-        if operation not in operations:
-            raise ValueError(f"Unknown operation: {operation}")
-        return operations[operation](a, b)
+    """calculator class"""
 
-    def handle_divide_by_zero(self):
-        logging.error("Attempted division by zero")
-        raise ZeroDivisionError("Cannot divide by zero.")
+    @staticmethod
+    def add(a: float, b: float) -> float:
+        """Returns the sum of two numbers."""
+        return a + b
+
+    @staticmethod
+    def subtract(a: float, b: float) -> float:
+        """returns difference"""
+        return a - b
+
+    @staticmethod
+    def multiply(a: float, b: float) -> float:
+        """returns product"""
+        return a * b
+
+    @staticmethod
+    def divide(a: float, b: float) -> float:
+        """returns quotient, raises ZeroDivisionError if necessary"""
+        if b == 0:
+            raise ZeroDivisionError("no zero division")
+        return a / b

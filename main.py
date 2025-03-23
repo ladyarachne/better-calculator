@@ -9,6 +9,7 @@ import re
 from decimal import Decimal, InvalidOperation
 from typing import List, Dict, Any, Optional
 
+from calculator.calculator import Calculator
 from calculator.calculation import Calculation
 from calculator.operations import add, subtract, multiply, divide
 from calculator.calculation_history import get_history_facade
