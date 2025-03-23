@@ -175,6 +175,114 @@ For test coverage report:
 pytest --cov=calculator
 ```
 
+## Implementation Details
+
+### Design Patterns Implementation
+
+1. **Facade Pattern**: 
+   - [CalculationHistoryFacade](calculator/calculation_history.py) - Lines 20-175
+   - This pattern provides a simplified interface for complex Pandas operations, hiding the implementation details from the rest of the application.
+   - Example: The `add_calculation` method handles all the complexity of converting Decimal objects to float, creating a DataFrame row, and appending it to the history.
+
+2. **Command Pattern**:
+   - [CalculatorREPL](main.py) - Lines 19-196
+   - Each command in the REPL is encapsulated in a separate method (do_add, do_subtract, etc.), following the Command pattern.
+   - Example: The `do_add` method encapsulates the logic for adding two numbers and storing the result in history.
+
+3. **Factory Method Pattern**:
+   - [PluginManager](calculator/plugins/__init__.py) - Lines 47-107
+   - The `load_plugins` method dynamically discovers and loads plugins, creating instances as needed.
+   - Example: The `execute_plugin` method creates and executes plugin instances based on the command name.
+
+4. **Singleton Pattern**:
+   - [LoggerSingleton](calculator/logger.py) - Lines 13-45
+   - [CalculationHistoryFacade](calculator/calculation_history.py) - Lines 20-35
+   - [PluginManager](calculator/plugins/__init__.py) - Lines 47-59
+   - These classes ensure only one instance exists throughout the application.
+   - Example: The `__new__` method in LoggerSingleton checks if an instance already exists and returns it if it does.
+
+5. **Strategy Pattern**:
+   - [Calculation](calculator/calculation.py) - Lines 19-45
+   - The Calculation class accepts an operation function as a parameter, allowing for flexible calculation strategies.
+   - Example: The `perform` method calls the operation function with the operands, regardless of what specific operation it is.
+
+### Environment Variables Usage
+
+The application uses environment variables for configuration, particularly for the logging system:
+
+- [Logger Configuration](calculator/logger.py) - Lines 28-33
+- The logger reads environment variables to configure the logging level and output file:
+  - `CALCULATOR_LOG_LEVEL`: Sets the logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  - `CALCULATOR_LOG_FILE`: Sets the path to the log file (if not set, logs only to console)
+- Example usage in code:
+  ```python
+  log_level_name = os.environ.get('CALCULATOR_LOG_LEVEL', 'INFO').upper()
+  log_level = getattr(logging, log_level_name, logging.INFO)
+  log_file = os.environ.get('CALCULATOR_LOG_FILE')
+  ```
+
+### Logging Implementation
+
+The application implements a comprehensive logging system:
+
+- [LoggerSingleton](calculator/logger.py) - Lines 13-45
+- Logs are used throughout the application to record:
+  - Information messages: [Example in PluginManager](calculator/plugins/__init__.py) - Line 101
+  - Error messages: [Example in CalculationHistoryFacade](calculator/calculation_history.py) - Line 67
+  - Debug messages: [Example in CalculationHistoryFacade](calculator/calculation_history.py) - Line 93
+- The logging system supports both console and file output, with configurable levels.
+
+### Exception Handling
+
+The application uses both LBYL (Look Before You Leap) and EAFP (Easier to Ask for Forgiveness than Permission) approaches:
+
+1. **LBYL Examples**:
+   - [PluginManager](calculator/plugins/__init__.py) - Lines 169-171
+   - Checking if a plugin exists before attempting to execute it:
+     ```python
+     plugin_class = self.get_plugin(command)
+     if plugin_class is None:
+         raise ValueError(f"Plugin '{command}' not found")
+     ```
+
+2. **EAFP Examples**:
+   - [CalculationHistoryFacade](calculator/calculation_history.py) - Lines 56-68
+   - Using try/except to handle potential errors during calculation:
+     ```python
+     try:
+         # Perform the calculation to get the result
+         result = calculation.perform()
+         # ... more code ...
+         return result
+     except Exception as e:
+         logger.error(f"Error adding calculation to history: {e}")
+         raise
+     ```
+   - [SquareRootPlugin](calculator/plugins/sample_plugin.py) - Lines 36-47
+   - Using try/except to handle potential errors during square root calculation:
+     ```python
+     try:
+         number = Decimal(args[0])
+         if number < 0:
+             raise ValueError("Cannot calculate square root of a negative number")
+         
+         result = number.sqrt()
+         logger.info(f"Calculated square root of {number}: {result}")
+         return result
+     except Exception as e:
+         logger.error(f"Error calculating square root: {e}")
+         raise
+     ```
+
+### GitHub Actions Configuration
+
+The project uses GitHub Actions for continuous integration:
+
+- [pytest.yml](.github/workflows/pytest.yml)
+- The workflow runs on push and pull requests to the main branch
+- It sets up Python, installs dependencies, and runs tests with coverage
+- The workflow ensures that all tests pass and maintains code quality
+
 ## License
 
 [MIT License](LICENSE)
