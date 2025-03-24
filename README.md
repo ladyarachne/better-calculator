@@ -1,6 +1,9 @@
 # Better Calculator
 
-A Python-based calculator application with advanced features including a REPL interface, plugin system, calculation history management, and professional logging.
+A Python-based calculator application with advanced features including a REPL interface, plugin system, calculation history management, and professional logging. 
+## Project Demonstration
+[Click here to watch the demo video](https://drive.google.com/file/d/1BiJx9PHATZhtLNK5KYTnUdthpk15xnB-/view?usp=sharing)
+
 
 ## Features
 
